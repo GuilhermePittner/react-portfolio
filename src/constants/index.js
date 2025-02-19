@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 export const HERO_CONTENT = `I am a curious developer, always striving to improve myself and my applications.  
 For the past three and a half years, I've been honing my skills in both front-end and back-end technologies, including React, TypeScript, Python, and Flask.  
@@ -36,33 +35,29 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Responsive Landing Page",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      'A fully responsive landing page built with React and styled using Tailwind CSS. Developed as a practice project to refine my frontend development skills.',
+    technologies: ["React", "Tailwind"],
+    link: 'https://react-landing-pearl.vercel.app/',
   },
   {
-    title: "Task Management App",
+    title: "Tic-Tac-Toe",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A Tic-Tac-Toe game built with React and TypeScript, styled with Tailwind. Scores are saved locally, but players can reset them at any time.",
+    technologies: ["React", "Tailwind", "Typescript"],
+    link: 'https://tic-tac-toe-react-hazel-seven.vercel.app/',
   },
   {
-    title: "Portfolio Website",
+    title: "Team Display",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A project that allows users to manage workers across different teams. My first React project, developed alongside Alura.",
+    technologies: ["React"],
+    link: 'https://typescript-team-display.vercel.app/',
+  }
 ];
 
 export const CONTACT = {
