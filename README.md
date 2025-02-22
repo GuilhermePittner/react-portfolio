@@ -1,8 +1,18 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Overview 📋
+A portfolio showcasing some of my front-end projects and sharing a bit about myself.
 
-Currently, two official plugins are available:
+### Purpose 🎥
+I had never designed a portfolio to tell more about myself, so I finally decided to create one while learning about React and TailwindCSS in the process. This page was designed following [this video](https://www.youtube.com/watch?v=wtGCTFXWV3Y).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🛠️ Built With:
+- React/Vite
+- TailwindCSS
+
+## Screenshots 📸
+Here are two screenshots of this project. If you'd like to try it for yourself, just [click here](https://react-portfolio-silk-zeta.vercel.app/).
+
+![Screenshot of the Project](public/img_1.png)
+
+![Screenshot of the Project](public/img_2.png)
